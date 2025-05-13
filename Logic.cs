@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TicTacToe2
 {
-    internal class Logic
+    public static class Logic
     {
+        public static int PopulateWithUserChoice()
+        {
+            return 0;
+        }
     }
 }

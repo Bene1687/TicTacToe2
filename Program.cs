@@ -1,4 +1,5 @@
-﻿using TicTacToe2;
+﻿using System.Data;
+using TicTacToe2;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -11,7 +12,10 @@ namespace TicTacToe2
         
         static void Main(string[] args)
         {
-        
+            int[] grid = new int[3, 3];
+            grid = Logic.PopulateWithUserChoice(grid, Row, Col);
+            UIMethods.DisplayGrid(grid);
+
             //make use of a grid and allow users to place a symbol
             //think of a way how a user can actually place a symbol into the play area
             //build an AI that also places their symbol

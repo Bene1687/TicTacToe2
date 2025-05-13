@@ -12,7 +12,11 @@ namespace TicTacToe2
         {
             Console.WriteLine("                                                        TIC TAC TOE                                                                     ");
             Console.WriteLine();
-           
+
+        }
+        public static void DisplayGrid()
+        {
+
         }
     }
 }
