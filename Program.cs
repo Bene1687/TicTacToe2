@@ -3,7 +3,7 @@ using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
-UIMethods.DisplayWelcomeMessage();
+UIMethods.DisplayMessage();
 namespace TicTacToe2
 {
     internal class Program

@@ -8,9 +8,11 @@ namespace TicTacToe2
 {
     public static class UIMethods
     {
-        public static void DisplayWelcomeMessage()
+        public static void DisplayMessage()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("                                                        TIC TAC TOE                                                                     ");
+            Console.WriteLine();
+           
         }
     }
 }
