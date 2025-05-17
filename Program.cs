@@ -4,7 +4,6 @@ using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
-UIMethods.DisplayMessage();
 namespace TicTacToe2
 {
     internal class Program
@@ -12,8 +11,9 @@ namespace TicTacToe2
         
         static void Main(string[] args)
         {
-            int[] grid = new int[3, 3];
-            grid = Logic.PopulateWithUserChoice(grid, Row, Col);
+            UIMethods.DisplayMessage();
+            int[] grid = new int[3,3];
+            grid = Logic.PopulateWithUserChoice(grid, col, row);
             UIMethods.DisplayGrid(grid);
 
             //make use of a grid and allow users to place a symbol
