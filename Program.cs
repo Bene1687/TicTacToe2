@@ -11,13 +11,13 @@ namespace TicTacToe2
         
         static void Main(string[] args)
         {
-            const int COLUNM_SIZE = 3;
-            const int ROW_SIZE = 3;
-
+             int colunm = 3;
+             int row = 3;
+          
             UIMethods.DisplayMessage();
-            int[,] grid = new int[COLUNM_SIZE,ROW_SIZE ];
-            grid = Logic.PopulateWithUserChoice(grid, col, row);
-            UIMethods.DisplayGrid(grid);
+            int[,] grid = new int[colunm, row];
+             grid =Logic.PopulateWithUserChoice(grid, colunm, row);
+            UIMethods.DisplayGrid();
 
             //make use of a grid and allow users to place a symbol
             //think of a way how a user can actually place a symbol into the play area

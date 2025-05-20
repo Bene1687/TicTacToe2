@@ -9,9 +9,9 @@ namespace TicTacToe2
 {
     public static class Logic
     {
-        public static int PopulateWithUserChoice()
+        public static int[,] PopulateWithUserChoice(int[,] grid, int colunm, int row)
         {
-            return 0;
+           return;
         }
     }
 }
