@@ -11,8 +11,11 @@ namespace TicTacToe2
         
         static void Main(string[] args)
         {
+            const int COLUNM_SIZE = 3;
+            const int ROW_SIZE = 3;
+
             UIMethods.DisplayMessage();
-            int[] grid = new int[3,3];
+            int[,] grid = new int[COLUNM_SIZE,ROW_SIZE ];
             grid = Logic.PopulateWithUserChoice(grid, col, row);
             UIMethods.DisplayGrid(grid);
 
