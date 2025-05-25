@@ -12,7 +12,8 @@ namespace TicTacToe2
         {
             Console.WriteLine("                                                        TIC TAC TOE                                                                     ");
             Console.WriteLine();
-
+            Console.WriteLine("Choose your symbol : O,X");
+            Console.WriteLine(Console.ReadLine());
         }
         public static void DisplayGrid()
         {
